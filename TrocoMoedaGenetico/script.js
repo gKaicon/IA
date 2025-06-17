@@ -4,7 +4,7 @@ const MUTATION_RATE = 0.05; // Taxa de mutação (0 a 1)
 const TOURNAMENT_SIZE = 5; // Tamanho do torneio para seleção
 const ELITISM_COUNT = 2; // Quantos dos melhores indivíduos são passados diretamente para a próxima geração
 
-const DENOMINATIONS = [100, 50, 25, 10, 5, 1]; // R$ 1,00, R$ 0,50, R$ 0,25, R$ 0,10, R$ 0,05, R$ 0,01
+const DENOMINATIONS = [20, 11, 5, 1]; // Moedas em centavos
 
 
 function createIndividual(targetAmount) {
